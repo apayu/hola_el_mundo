@@ -1,6 +1,7 @@
 require "hola_el_mundo/version"
 
 module HolaElMundo
-  class Error < StandardError; end
-  # Your code goes here...
+  def self.quien_es
+    puts 'Soy apa'
+  end
 end
