@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'hola_el_mundo'
+puts HolaElMundo.quien_es(ARGV[0])
